@@ -1,0 +1,33 @@
+.box-019 {
+    position: relative;
+    margin-top: 1em;
+    padding: 1.8em 1.5em 1em 1.5em;
+    border: 2px solid #2589d0;
+}
+
+.box-019 > div {
+    position: absolute;
+    top: -1.15em;
+    left: -.5em;
+    padding: .4em 1.4em;
+    border-radius: 25px;
+    background-color: #2589d0;
+    color: #fff;
+    font-size: .9em;
+}
+
+.box-019 > div::before {
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 16px;
+    height: 8px;
+    background-color: #2589d0;
+    clip-path: polygon(0 0, 100% 0, 50% 100%);
+    content: '';
+}
+
+.box-019 p {
+    margin: 0;
+}
